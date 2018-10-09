@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Unicode|Win32">
+      <Configuration>Debug_Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Unicode|Win32">
+      <Configuration>Release_Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>平台资源</ProjectName>
+    <ProjectGuid>{6D2C97FD-5E1A-4489-90F8-EA0BC53486E0}</ProjectGuid>
+    <SccProjectName />
+    <SccAuxPath />
+    <SccLocalPath />
+    <SccProvider />
+    <Keyword>MFCDLLProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_AFXEXT;PLATFORM_RESOURCE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>../../../运行/Debug/Ansi/PlatformResourceD.dll</OutputFile>
+      <ModuleDefinitionFile>.\PlatformResourceD.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>../../链接库/Ansi/PlatformResourceD.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Command>mkdir ..\..\..\发布组件\客户端组件\Debug\Ansi
+copy /y ..\..\..\运行\Debug\Ansi\$(TargetFileName) ..\..\..\发布组件\客户端组件\Debug\Ansi\$(TargetFileName)
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_AFXEXT;PLATFORM_RESOURCE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>../../../运行/Release/Ansi/PlatformResource.dll</OutputFile>
+      <ModuleDefinitionFile>.\PlatformResource.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>../../链接库/Ansi/PlatformResource.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Command>mkdir ..\..\..\发布组件\客户端组件\Release\Ansi
+copy /y ..\..\..\运行\Release\Ansi\$(TargetFileName) ..\..\..\发布组件\客户端组件\Release\Ansi\$(TargetFileName)
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_AFXEXT;_UNICODE;PLATFORM_RESOURCE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>../../../运行/Debug/Unicode/PlatformResourceD.dll</OutputFile>
+      <ModuleDefinitionFile>.\PlatformResourceD.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>../../链接库/Unicode/PlatformResourceD.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Command>mkdir ..\..\..\发布组件\客户端组件\Debug\Unicode
+copy /y ..\..\..\运行\Debug\Unicode\$(TargetFileName) ..\..\..\发布组件\客户端组件\Debug\Unicode\$(TargetFileName)
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_AFXEXT;_UNICODE;PLATFORM_RESOURCE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <OutputFile>../../../运行/Release/Unicode/PlatformResource.dll</OutputFile>
+      <ModuleDefinitionFile>.\PlatformResource.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>../../链接库/Unicode/PlatformResource.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Command>mkdir ..\..\..\发布组件\客户端组件\Release\Unicode
+copy /y ..\..\..\运行\Release\Unicode\$(TargetFileName) ..\..\..\发布组件\客户端组件\Release\Unicode\$(TargetFileName)
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="PlatformResource.cpp" />
+    <ClCompile Include="PlatformResourceManager.cpp" />
+    <ClCompile Include="Stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlatformResourceHead.h" />
+    <ClInclude Include="PlatformResourceManager.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\BT_SKIN_ITEM.png" />
+    <Image Include="Res\BUTTON_CHECKED.png" />
+    <Image Include="Res\BUTTON_NORMAL.png" />
+    <Image Include="Res\CHECK_CHECKED.png" />
+    <Image Include="Res\CHECK_NORMAL.png" />
+    <Image Include="Res\COMBO_HOT.png" />
+    <Image Include="Res\COMBO_NORMAL.png" />
+    <Image Include="Res\COMBO_PUSHED.png" />
+    <Image Include="Res\EDIT_SKIN_NORMAL.png" />
+    <Image Include="Res\Game_property\BT_LEFT.png" />
+    <Image Include="Res\Game_property\BT_OPTION_COLOR.png" />
+    <Image Include="Res\Game_property\BT_OPTION_EXPRESSION.png" />
+    <Image Include="Res\Game_property\BT_PROPERTY_BUY.png" />
+    <Image Include="Res\Game_property\BT_PROPERTY_CLOSE.png" />
+    <Image Include="Res\Game_property\BT_RIGHT.png" />
+    <Image Include="Res\Game_property\IMAGE_PROPERTY_TITLE.png" />
+    <Image Include="Res\Game_type\BT_GAME_TYPE_LEFT.png" />
+    <Image Include="Res\Game_type\BT_GAME_TYPE_RIGHT.png" />
+    <Image Include="Res\Game_type\GAME_TYPE_L.bmp" />
+    <Image Include="Res\Game_type\GAME_TYPE_LINE.png" />
+    <Image Include="Res\Game_type\GAME_TYPE_M.bmp" />
+    <Image Include="Res\Game_type\GAME_TYPE_R.bmp" />
+    <Image Include="Res\IMAGE_LINE.png" />
+    <Image Include="Res\IMAGE_ROUND_FRAME.png" />
+    <Image Include="Res\IMAGE_ROUND_FRAME1.png" />
+    <Image Include="Res\IMAGE_SCROLL.png" />
+    <Image Include="Res\Image_scrollbar.bmp" />
+    <Image Include="Res\Platform_affiche\BT_BASEMONEY.png" />
+    <Image Include="Res\Platform_affiche\BT_CHECKIN.png" />
+    <Image Include="Res\Platform_baseensure\BT_AS_PROMOTER.png" />
+    <Image Include="Res\Platform_baseensure\BT_PROMPT_CHECKIN.png" />
+    <Image Include="Res\Platform_baseensure\BT_PROMPT_MATCH.png" />
+    <Image Include="Res\Platform_baseensure\BT_PROMPT_RECHARGE.png" />
+    <Image Include="Res\Platform_baseensure\BT_PROMPT_TAKE.png" />
+    <Image Include="Res\Platform_baseensure\BT_PROMPT_TASK.png" />
+    <Image Include="Res\Platform_baseensure\ENCIRCLE_L.png" />
+    <Image Include="Res\Platform_baseensure\ENCIRCLE_M.png" />
+    <Image Include="Res\Platform_baseensure\ENCIRCLE_R.png" />
+    <Image Include="Res\Platform_baseensure\IMAGE_TITLE.png" />
+    <Image Include="Res\Platform_checkin\BT_CHECKIN.png" />
+    <Image Include="Res\Platform_checkin\BT_CHECKIN_CLOSE.png" />
+    <Image Include="Res\Platform_checkin\BT_CHECKIN_TODO.png" />
+    <Image Include="Res\Platform_checkin\DLG_CHECKIN_BACK.png" />
+    <Image Include="Res\Platform_checkin\IMAGE_CHECKIN_ANIMAION.png" />
+    <Image Include="Res\Platform_checkin\IMAGE_CHECKIN_BACK.png" />
+    <Image Include="Res\Platform_checkin\IMAGE_CHECKIN_CARD.png" />
+    <Image Include="Res\Platform_checkin\IMAGE_CHECKIN_NUMBER.png" />
+    <Image Include="Res\Platform_download\BT_DOWNLOAD_ITEM.png" />
+    <Image Include="Res\Platform_download\BT_LEFT.png" />
+    <Image Include="Res\Platform_download\BT_RIGHT.png" />
+    <Image Include="Res\Platform_download\DOWN_LOAD_SCALE.png" />
+    <Image Include="Res\Platform_download\IMAGE_DOWNLOAD_TITLE.png" />
+    <Image Include="Res\Platform_enquire\BT_CANCEL.png" />
+    <Image Include="Res\Platform_enquire\BT_CLOSE_PLAZA.png" />
+    <Image Include="Res\Platform_enquire\BT_CLOSE_SERVER.png" />
+    <Image Include="Res\Platform_enquire\BT_SWITCH_ACCOUNTS.png" />
+    <Image Include="Res\Platform_enquire\DLG_ENQUIRE_BACK.png" />
+    <Image Include="Res\Platform_enquire\IMAGE_TITLE.png" />
+    <Image Include="Res\Platform_exchange\BT_CONFIRM_EXCHANGE.png" />
+    <Image Include="Res\Platform_exchange\BT_CONFIRM_PAY.png" />
+    <Image Include="Res\Platform_exchange\BT_EXCHANGE_ITEM.png" />
+    <Image Include="Res\Platform_exchange\IMAGE_EXCHANGE_TITLE.png" />
+    <Image Include="Res\Platform_exchange\TEXT_AS_MEMBER.png" />
+    <Image Include="Res\Platform_exchange\TEXT_EXCHANGE_INGOT.png" />
+    <Image Include="Res\Platform_face\BT_FROM_FILE.png" />
+    <Image Include="Res\Platform_face\BT_LOAD_CAMER.png" />
+    <Image Include="Res\Platform_face\BT_SHOW_VLINE.png" />
+    <Image Include="Res\Platform_face\BT_TURN_LEFT.png" />
+    <Image Include="Res\Platform_face\BT_TURN_RIGHT.png" />
+    <Image Include="Res\Platform_face\CHANGE_FACE_TITLE.png" />
+    <Image Include="Res\Platform_frame\BT_CLOSE.png" />
+    <Image Include="Res\Platform_frame\BT_MAX.png" />
+    <Image Include="Res\Platform_frame\BT_MIN.png" />
+    <Image Include="Res\Platform_frame\BT_NAVIGATION_1.png" />
+    <Image Include="Res\Platform_frame\BT_NAVIGATION_2.png" />
+    <Image Include="Res\Platform_frame\BT_NAVIGATION_3.png" />
+    <Image Include="Res\Platform_frame\BT_NAVIGATION_4.png" />
+    <Image Include="Res\Platform_frame\BT_RESORE.png" />
+    <Image Include="Res\Platform_frame\Platform_logo.png" />
+    <Image Include="Res\Platform_lock_machine\BT_CANCEL.png" />
+    <Image Include="Res\Platform_lock_machine\BT_LOCK_MACHINE.png" />
+    <Image Include="Res\Platform_lock_machine\BT_UNLOCK_MACHINE.png" />
+    <Image Include="Res\Platform_lock_machine\IMAGE_LOCKMACHINE_TITLE.png" />
+    <Image Include="Res\Platform_search\BT_SEARCH_CONFIRM.png" />
+    <Image Include="Res\Platform_search\BT_SEARCH_ENTER.png" />
+    <Image Include="Res\Platform_search\IMAGE_SEARCH_TITLE.png" />
+    <Image Include="Res\Platform_search_table\BT_CLOSE_SEARCH.png" />
+    <Image Include="Res\Platform_search_table\BT_QUICK_JOIN.png" />
+    <Image Include="Res\Platform_search_table\BT_SEARCH_TABLE.png" />
+    <Image Include="Res\Platform_search_table\SEARCH_CHECK_CHECKED.png" />
+    <Image Include="Res\Platform_search_table\SEARCH_CHECK_NORMAL.png" />
+    <Image Include="Res\Platform_search_table\SEARCH_TABLE_ICON.png" />
+    <Image Include="Res\Platform_search_table\SEARCH_TABLE_TITLE.png" />
+    <Image Include="Res\Platform_server\BT_CHAT_BUTTON_1.png" />
+    <Image Include="Res\Platform_server\BT_CHAT_BUTTON_2.png" />
+    <Image Include="Res\Platform_server\BT_CHAT_BUTTON_3.png" />
+    <Image Include="Res\Platform_server\BT_CHAT_BUTTON_4.png" />
+    <Image Include="Res\Platform_server\BT_CHAT_SHORT.png" />
+    <Image Include="Res\Platform_server\BT_CLOSE.png" />
+    <Image Include="Res\Platform_server\BT_CONFIRM.png" />
+    <Image Include="Res\Platform_server\BT_QUIT_SERVER.png" />
+    <Image Include="Res\Platform_server\BT_SEND_CHAT.png" />
+    <Image Include="Res\Platform_server\BT_TABLE_BUTTON_1.png" />
+    <Image Include="Res\Platform_server\BT_TABLE_BUTTON_2.png" />
+    <Image Include="Res\Platform_server\BT_TABLE_BUTTON_3.png" />
+    <Image Include="Res\Platform_server\BT_TABLE_BUTTON_4.png" />
+    <Image Include="Res\Platform_server\BT_TABLE_BUTTON_5.png" />
+    <Image Include="Res\Platform_server\DLG_INPUT_PASSWD_BACK.png" />
+    <Image Include="Res\Platform_service\BT_CHANGE_FACE.png" />
+    <Image Include="Res\Platform_service\BT_CHANGE_PASSWORD.png" />
+    <Image Include="Res\Platform_service\BT_CONFIR_INDIVIDUAL.png" />
+    <Image Include="Res\Platform_service\BT_EXCHANGE.png" />
+    <Image Include="Res\Platform_service\BT_GETSCORE.png" />
+    <Image Include="Res\Platform_service\BT_OPERATE_INSURE.png" />
+    <Image Include="Res\Platform_service\BT_RECHARGE.png" />
+    <Image Include="Res\Platform_service\IMAGE_PASSWORD_FRAME.png" />
+    <Image Include="Res\Platform_service\IMAGE_SERVICE_TITLE.png" />
+    <Image Include="Res\Platform_service\IMAGE_WEALTH_ITEM.png" />
+    <Image Include="Res\Platform_service\TAB_SERVICE_INDIVIDUAL.png" />
+    <Image Include="Res\Platform_service\TAB_SERVICE_PASSWORD.png" />
+    <Image Include="Res\Platform_service\TAB_SERVICE_WEALTH.png" />
+    <Image Include="Res\Platform_spread\BT_COPY_LINK.png" />
+    <Image Include="Res\Platform_spread\IMAGE_LINK_BACK.png" />
+    <Image Include="Res\Platform_spread\IMAGE_REWARD_STRUCT.png" />
+    <Image Include="Res\Platform_spread\IMAGE_SPREAD_INFO.png" />
+    <Image Include="Res\Platform_spread\IMAGE_SPREAD_TITLE.png" />
+    <Image Include="Res\Platform_status\BT_STATUS_CANCLE.png" />
+    <Image Include="Res\Platform_status\DLG_STATUS_BACK.png" />
+    <Image Include="Res\Platform_status\STATUS_BACK.png" />
+    <Image Include="Res\Platform_status\STATUS_LINE.png" />
+    <Image Include="Res\Platform_status\STATUS_NUMBER.png" />
+    <Image Include="Res\Platform_status\STATUS_PERCENT.png" />
+    <Image Include="Res\Platform_status\STATUS_POINT.png" />
+    <Image Include="Res\Platform_status\STATUS_UPDATE_WORDS.png" />
+    <Image Include="Res\Platform_status\STATUS_WAITING.png" />
+    <Image Include="Res\Platform_table_password\IMAGE_TABLE_PASSWORD.png" />
+    <Image Include="Res\Platform_table_password\TABLE_PASSWORD_TITLE.png" />
+    <Image Include="Res\Platform_task\ARROW.png" />
+    <Image Include="Res\Platform_task\BT_NOTIFYER_CLOSE.png" />
+    <Image Include="Res\Platform_task\BT_TASK_LOOK.png" />
+    <Image Include="Res\Platform_task\BT_TASK_RETURN.png" />
+    <Image Include="Res\Platform_task\BT_TASK_REWARD.png" />
+    <Image Include="Res\Platform_task\BT_TASK_TAKE.png" />
+    <Image Include="Res\Platform_task\DLG_TASKGUIDE_BACK.png" />
+    <Image Include="Res\Platform_task\DLG_TASKNOTIFYER_BACK.png" />
+    <Image Include="Res\Platform_task\IMAGE_TITLE.png" />
+    <Image Include="Res\Platform_task\LINE.png" />
+    <Image Include="Res\Platform_task\TASK_ABOUT_B.bmp" />
+    <Image Include="Res\Platform_task\TASK_ABOUT_B.png" />
+    <Image Include="Res\Platform_task\TASK_ABOUT_M.bmp" />
+    <Image Include="Res\Platform_task\TASK_ABOUT_M.png" />
+    <Image Include="Res\Platform_task\TASK_ABOUT_T.bmp" />
+    <Image Include="Res\Platform_task\TASK_ABOUT_T.png" />
+    <Image Include="Res\Platform_task\TASK_ARROW_COLLPASE.png" />
+    <Image Include="Res\Platform_task\TASK_ARROW_EXPAND.png" />
+    <Image Include="Res\Platform_task\TASK_LINE.png" />
+    <Image Include="Res\Platform_task\TASK_LIST_B.bmp" />
+    <Image Include="Res\Platform_task\TASK_LIST_B.png" />
+    <Image Include="Res\Platform_task\TASK_LIST_M.bmp" />
+    <Image Include="Res\Platform_task\TASK_LIST_M.png" />
+    <Image Include="Res\Platform_task\TASK_LIST_T.bmp" />
+    <Image Include="Res\Platform_task\TASK_LIST_T.png" />
+    <Image Include="Res\Platform_userinfo\BT_BANK.png" />
+    <Image Include="Res\Platform_userinfo\BT_FIND_FRIEND.png" />
+    <Image Include="Res\Platform_userinfo\BT_GETSCORE.png" />
+    <Image Include="Res\Platform_userinfo\BT_LOCK_MACHINE.png" />
+    <Image Include="Res\Platform_userinfo\BT_MYPOPULARIZE.png" />
+    <Image Include="Res\Platform_userinfo\BT_MYTASK.png" />
+    <Image Include="Res\Platform_userinfo\BT_RECHARGE.png" />
+    <Image Include="Res\Platform_userinfo\BT_UPLOAD_FACE.png" />
+    <Image Include="Res\Platform_userinfo\BT_USER_CENTER.png" />
+    <Image Include="Res\Platform_userinfo\IMAGE_GIFT.png" />
+    <Image Include="Res\Platform_userinfo\IMAGE_LEVEL_BACK.png" />
+    <Image Include="Res\Platform_userinfo\IMAGE_LEVEL_NUMBER.png" />
+    <Image Include="Res\Platform_userinfo\IMAGE_LEVEL_PROGRESS.png" />
+    <Image Include="Res\Platform_userinfo\IMAGE_MEMBER_LEVEL.png" />
+    <Image Include="Res\Platform_userinfo\IMAGE_PROGRESS_NUMBER.png" />
+    <Image Include="Res\Platform_userinfo\IMAGE_XP.png" />
+    <Image Include="Res\Platform_userinfo\PROGRESS_LINE.png" />
+    <Image Include="Res\Platform_userinfo\PROGRESS_POINT.png" />
+    <Image Include="Res\Platform_view\BT_ARROW_LEFT.png" />
+    <Image Include="Res\Platform_view\BT_ARROW_RIGHT.png" />
+    <Image Include="Res\Platform_view\BT_CHECK_SCORE.png" />
+    <Image Include="Res\Platform_view\BT_MATCH_CLOSE.png" />
+    <Image Include="Res\Platform_view\BT_SIGNUP.png" />
+    <Image Include="Res\Platform_view\BT_UNSIGNUP.png" />
+    <Image Include="Res\Platform_view\DIALOG_MATCH_BACK.png" />
+    <Image Include="Res\Platform_view\IMAGE_TIME_NUMBER.png" />
+    <Image Include="Res\Platform_view\KIND_FRAME.png" />
+    <Image Include="Res\Platform_view\KIND_HOVER.png" />
+    <Image Include="Res\Platform_view\KIND_NAME_UNKNOWN.png" />
+    <Image Include="Res\Platform_view\KIND_UNINSTALL.png" />
+    <Image Include="Res\Platform_view\KIND_UNSURE.png" />
+    <Image Include="Res\Platform_view\MATCH_NUMBER.png" />
+    <Image Include="Res\Platform_view\MATCH_TYPE_0_NORMAL.png" />
+    <Image Include="Res\Platform_view\MATCH_TYPE_0_SIGNUP.png" />
+    <Image Include="Res\Platform_view\MATCH_TYPE_1_NORMAL.png" />
+    <Image Include="Res\Platform_view\MATCH_TYPE_1_SIGNUP.png" />
+    <Image Include="Res\Platform_view\SERVER_GOLD.png" />
+    <Image Include="Res\Platform_view\SERVER_HOVER.png" />
+    <Image Include="Res\Platform_view\SERVER_INGOT.png" />
+    <Image Include="Res\Platform_view\SERVER_KIND_MATCH_0.png" />
+    <Image Include="Res\Platform_view\SERVER_KIND_MATCH_1.png" />
+    <Image Include="Res\Platform_view\SERVER_KIND_NORMAL.png" />
+    <Image Include="Res\Platform_view\SERVER_LOCKER.png" />
+    <Image Include="Res\Platform_view\SERVER_LOGO_DISTRIBUTE.png" />
+    <Image Include="Res\Platform_view\SERVER_LOGO_MATCH.png" />
+    <Image Include="Res\Platform_view\SERVER_MATCH.png" />
+    <Image Include="Res\Platform_view\SERVER_NETSTATUS.png" />
+    <Image Include="Res\Platform_whisper\AREA_ROUND.png" />
+    <Image Include="Res\Platform_whisper\BT_ADD_FRIEND_1.png" />
+    <Image Include="Res\Platform_whisper\BT_ADD_FRIEND_2.png" />
+    <Image Include="Res\Platform_whisper\BT_CHAT_BUTTON_1.png" />
+    <Image Include="Res\Platform_whisper\BT_CHAT_BUTTON_2.png" />
+    <Image Include="Res\Platform_whisper\BT_CHAT_BUTTON_3.png" />
+    <Image Include="Res\Platform_whisper\BT_CHAT_HISTORY.png" />
+    <Image Include="Res\Platform_whisper\BT_MESSAGE_SETTING.png" />
+    <Image Include="Res\Platform_whisper\BT_SET_DETEST_1.png" />
+    <Image Include="Res\Platform_whisper\BT_SET_DETEST_2.png" />
+    <Image Include="Res\Platform_whisper\BT_SHIELD_CHAT_1.png" />
+    <Image Include="Res\Platform_whisper\BT_SHIELD_CHAT_2.png" />
+    <Image Include="Res\Platform_whisper\BT_USER_MENU.png" />
+    <Image Include="Res\Platform_whisper\BT_WHISPER_CLOSE.png" />
+    <Image Include="Res\Platform_whisper\BT_WHISPER_DOWN.png" />
+    <Image Include="Res\Platform_whisper\BT_WHISPER_SEND.png" />
+    <Image Include="Res\Platform_whisper\IMAGE_FACE_BACK.png" />
+    <Image Include="Res\Platform_whisper\IMAGE_WHISPER_TITLE.png" />
+    <Image Include="Res\Plaza_logon\ACCREDIT_BORDER.png" />
+    <Image Include="Res\Plaza_logon\BT_ACCREDIT.png" />
+    <Image Include="Res\Plaza_logon\BT_ACCREDIT_CLOSE.png" />
+    <Image Include="Res\Plaza_logon\BT_BACKSPACE.png" />
+    <Image Include="Res\Plaza_logon\BT_ENTER.png" />
+    <Image Include="Res\Plaza_logon\BT_LOGON_CLOSE.png" />
+    <Image Include="Res\Plaza_logon\BT_LOGON_ITEM.png" />
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_1.png" />
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_2.png" />
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_3.png" />
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_4.png" />
+    <Image Include="Res\Plaza_logon\BT_LOGON_MIN.png" />
+    <Image Include="Res\Plaza_logon\BT_NUMBER_ITEM.png" />
+    <Image Include="Res\Plaza_logon\BT_REGISTER_ENTER.png" />
+    <Image Include="Res\Plaza_logon\BT_REGISTER_QUIT.png" />
+    <Image Include="Res\Plaza_logon\BT_SELECT_FACE.png" />
+    <Image Include="Res\Plaza_logon\DLG_ACCREDIT_BACK.png" />
+    <Image Include="Res\Plaza_logon\Dlg_logon_back.png" />
+    <Image Include="Res\Plaza_logon\DLG_REGISTER_BACK.png" />
+    <Image Include="Res\Plaza_logon\IMAGE_REGISTER.bmp" />
+    <Image Include="Res\Plaza_logon\IMAGE_REGISTER.png" />
+    <Image Include="Res\Plaza_logon\IMAGE_RIGHT.png" />
+    <Image Include="Res\Plaza_logon\LOGON_COMBO_HOT.png" />
+    <Image Include="Res\Plaza_logon\LOGON_COMBO_NORMAL.png" />
+    <Image Include="Res\Plaza_logon\LOGON_COMBO_PUSHED.png" />
+    <Image Include="Res\Plaza_logon\Logon_titile.png" />
+    <Image Include="Res\Plaza_logon\REGISTER_TITLE.png" />
+    <Image Include="Res\RADIO_CHECKED.png" />
+    <Image Include="Res\RADIO_NORMAL.png" />
+    <Image Include="Res\Share_control\Insure\BT_EXCHANGE_CONFIRM.png" />
+    <Image Include="Res\Share_control\Insure\BT_INSURE_ENTER.png" />
+    <Image Include="Res\Share_control\Insure\BT_INSURE_EXCHANGE.png" />
+    <Image Include="Res\Share_control\Insure\BT_INSURE_REFRESH.png" />
+    <Image Include="Res\Share_control\Insure\BT_INSURE_SAVE.png" />
+    <Image Include="Res\Share_control\Insure\BT_INSURE_TAKE.png" />
+    <Image Include="Res\Share_control\Insure\BT_OPEN_INSURE.png" />
+    <Image Include="Res\Share_control\Insure\EDIT_NORMAL.png" />
+    <Image Include="Res\Share_control\Insure\IMAGE_BANK.png" />
+    <Image Include="Res\Share_control\Insure\IMAGE_INSURE_REFRESH.png" />
+    <Image Include="Res\Share_control\Insure\IMAGE_MONEY.png" />
+    <Image Include="Res\Share_control\Insure\INSURE_ROUND.png" />
+    <Image Include="Res\Share_control\Insure\INSURE_TITLE.png" />
+    <Image Include="Res\Share_control\Insure\TAB_INSURE_RECORD.png" />
+    <Image Include="Res\Share_control\Insure\TAB_INSURE_SAVE.png" />
+    <Image Include="Res\Share_control\Insure\TAB_INSURE_TRANSFER.png" />
+    <Image Include="Res\Skin_control\BT_SKIN_CLOSE.png" />
+    <Image Include="Res\Skin_control\BT_SKIN_MAX.png" />
+    <Image Include="Res\Skin_control\BT_SKIN_MIN.png" />
+    <Image Include="Res\Skin_control\BT_SKIN_RESORE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\HAND_CUR.cur" />
+    <None Include="Res\PlatformResource.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PlatformResource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="AvatarControl.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

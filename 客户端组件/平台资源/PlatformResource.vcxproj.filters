@@ -1,0 +1,885 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;png;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PlatformResource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformResourceManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlatformResourceHead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformResourceManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\Plaza_logon\ACCREDIT_BORDER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\AREA_ROUND.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\ARROW.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_ACCREDIT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_ACCREDIT_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_ADD_FRIEND_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_ADD_FRIEND_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\BT_ARROW_LEFT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\BT_ARROW_RIGHT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_baseensure\BT_AS_PROMOTER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_BACKSPACE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\BT_BANK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_affiche\BT_BASEMONEY.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_lock_machine\BT_CANCEL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_enquire\BT_CANCEL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_service\BT_CHANGE_FACE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_service\BT_CHANGE_PASSWORD.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_CHAT_BUTTON_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_CHAT_BUTTON_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_CHAT_BUTTON_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_CHAT_BUTTON_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_CHAT_BUTTON_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_CHAT_BUTTON_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_CHAT_BUTTON_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_CHAT_HISTORY.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_CHAT_SHORT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\BT_CHECK_SCORE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_checkin\BT_CHECKIN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_affiche\BT_CHECKIN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_checkin\BT_CHECKIN_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_checkin\BT_CHECKIN_TODO.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_enquire\BT_CLOSE_PLAZA.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_search_table\BT_CLOSE_SEARCH.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_enquire\BT_CLOSE_SERVER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_service\BT_CONFIR_INDIVIDUAL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_CONFIRM.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_exchange\BT_CONFIRM_EXCHANGE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_exchange\BT_CONFIRM_PAY.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_spread\BT_COPY_LINK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_download\BT_DOWNLOAD_ITEM.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_ENTER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_service\BT_EXCHANGE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\BT_EXCHANGE_CONFIRM.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_exchange\BT_EXCHANGE_ITEM.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\BT_FIND_FRIEND.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_face\BT_FROM_FILE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_type\BT_GAME_TYPE_LEFT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_type\BT_GAME_TYPE_RIGHT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_service\BT_GETSCORE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\BT_GETSCORE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\BT_INSURE_ENTER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\BT_INSURE_EXCHANGE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\BT_INSURE_REFRESH.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\BT_INSURE_SAVE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\BT_INSURE_TAKE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_download\BT_LEFT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_property\BT_LEFT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_face\BT_LOAD_CAMER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_lock_machine\BT_LOCK_MACHINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\BT_LOCK_MACHINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_ITEM.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_MIN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\BT_MATCH_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_MAX.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_MESSAGE_SETTING.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_MIN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\BT_MYPOPULARIZE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\BT_MYTASK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_NAVIGATION_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_NAVIGATION_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_NAVIGATION_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_NAVIGATION_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\BT_NOTIFYER_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_NUMBER_ITEM.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\BT_OPEN_INSURE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_service\BT_OPERATE_INSURE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_property\BT_OPTION_COLOR.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_property\BT_OPTION_EXPRESSION.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_baseensure\BT_PROMPT_CHECKIN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_baseensure\BT_PROMPT_MATCH.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_baseensure\BT_PROMPT_RECHARGE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_baseensure\BT_PROMPT_TAKE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_baseensure\BT_PROMPT_TASK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_property\BT_PROPERTY_BUY.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_property\BT_PROPERTY_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_search_table\BT_QUICK_JOIN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_QUIT_SERVER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\BT_RECHARGE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_service\BT_RECHARGE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_REGISTER_ENTER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_REGISTER_QUIT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_RESORE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_property\BT_RIGHT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_download\BT_RIGHT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_search\BT_SEARCH_CONFIRM.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_search\BT_SEARCH_ENTER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_search_table\BT_SEARCH_TABLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_SELECT_FACE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_SEND_CHAT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_SET_DETEST_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_SET_DETEST_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_SHIELD_CHAT_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_SHIELD_CHAT_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_face\BT_SHOW_VLINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\BT_SIGNUP.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Skin_control\BT_SKIN_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_SKIN_ITEM.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Skin_control\BT_SKIN_MAX.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Skin_control\BT_SKIN_MIN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Skin_control\BT_SKIN_RESORE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_status\BT_STATUS_CANCLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_enquire\BT_SWITCH_ACCOUNTS.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_TABLE_BUTTON_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_TABLE_BUTTON_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_TABLE_BUTTON_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_TABLE_BUTTON_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\BT_TABLE_BUTTON_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\BT_TASK_LOOK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\BT_TASK_RETURN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\BT_TASK_REWARD.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\BT_TASK_TAKE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_face\BT_TURN_LEFT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_face\BT_TURN_RIGHT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_lock_machine\BT_UNLOCK_MACHINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\BT_UNSIGNUP.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\BT_UPLOAD_FACE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\BT_USER_CENTER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_USER_MENU.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_WHISPER_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_WHISPER_DOWN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\BT_WHISPER_SEND.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BUTTON_CHECKED.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BUTTON_NORMAL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_face\CHANGE_FACE_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CHECK_CHECKED.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CHECK_NORMAL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\COMBO_HOT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\COMBO_NORMAL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\COMBO_PUSHED.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\DIALOG_MATCH_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\DLG_ACCREDIT_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_checkin\DLG_CHECKIN_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_enquire\DLG_ENQUIRE_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_server\DLG_INPUT_PASSWD_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\Dlg_logon_back.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\DLG_REGISTER_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_status\DLG_STATUS_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\DLG_TASKGUIDE_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\DLG_TASKNOTIFYER_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_download\DOWN_LOAD_SCALE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\EDIT_NORMAL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\EDIT_SKIN_NORMAL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_baseensure\ENCIRCLE_L.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_baseensure\ENCIRCLE_M.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_baseensure\ENCIRCLE_R.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_type\GAME_TYPE_L.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_type\GAME_TYPE_LINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_type\GAME_TYPE_M.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_type\GAME_TYPE_R.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\IMAGE_BANK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_checkin\IMAGE_CHECKIN_ANIMAION.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_checkin\IMAGE_CHECKIN_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_checkin\IMAGE_CHECKIN_CARD.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_checkin\IMAGE_CHECKIN_NUMBER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_download\IMAGE_DOWNLOAD_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_exchange\IMAGE_EXCHANGE_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\IMAGE_FACE_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\IMAGE_GIFT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\IMAGE_INSURE_REFRESH.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\IMAGE_LEVEL_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\IMAGE_LEVEL_NUMBER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\IMAGE_LEVEL_PROGRESS.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\IMAGE_LINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_spread\IMAGE_LINK_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_lock_machine\IMAGE_LOCKMACHINE_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\IMAGE_MEMBER_LEVEL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\IMAGE_MONEY.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_service\IMAGE_PASSWORD_FRAME.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\IMAGE_PROGRESS_NUMBER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Game_property\IMAGE_PROPERTY_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\IMAGE_REGISTER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\IMAGE_REGISTER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_spread\IMAGE_REWARD_STRUCT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\IMAGE_RIGHT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\IMAGE_ROUND_FRAME.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\IMAGE_ROUND_FRAME1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\IMAGE_SCROLL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Image_scrollbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_search\IMAGE_SEARCH_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_service\IMAGE_SERVICE_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_spread\IMAGE_SPREAD_INFO.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_spread\IMAGE_SPREAD_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_table_password\IMAGE_TABLE_PASSWORD.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\IMAGE_TIME_NUMBER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_enquire\IMAGE_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_baseensure\IMAGE_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\IMAGE_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_service\IMAGE_WEALTH_ITEM.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_whisper\IMAGE_WHISPER_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\IMAGE_XP.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\INSURE_ROUND.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\INSURE_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\KIND_FRAME.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\KIND_HOVER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\KIND_NAME_UNKNOWN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\KIND_UNINSTALL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\KIND_UNSURE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\LINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\LOGON_COMBO_HOT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\LOGON_COMBO_NORMAL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\LOGON_COMBO_PUSHED.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\Logon_titile.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\MATCH_NUMBER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\MATCH_TYPE_0_NORMAL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\MATCH_TYPE_0_SIGNUP.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\MATCH_TYPE_1_NORMAL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\MATCH_TYPE_1_SIGNUP.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\Platform_logo.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\PROGRESS_LINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_userinfo\PROGRESS_POINT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\RADIO_CHECKED.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\RADIO_NORMAL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\REGISTER_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_search_table\SEARCH_CHECK_CHECKED.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_search_table\SEARCH_CHECK_NORMAL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_search_table\SEARCH_TABLE_ICON.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_search_table\SEARCH_TABLE_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\SERVER_GOLD.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\SERVER_HOVER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\SERVER_INGOT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\SERVER_KIND_MATCH_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\SERVER_KIND_MATCH_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\SERVER_KIND_NORMAL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\SERVER_LOCKER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\SERVER_LOGO_DISTRIBUTE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\SERVER_LOGO_MATCH.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\SERVER_MATCH.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_view\SERVER_NETSTATUS.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_status\STATUS_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_status\STATUS_LINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_status\STATUS_NUMBER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_status\STATUS_PERCENT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_status\STATUS_POINT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_status\STATUS_UPDATE_WORDS.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_status\STATUS_WAITING.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\TAB_INSURE_RECORD.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\TAB_INSURE_SAVE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Share_control\Insure\TAB_INSURE_TRANSFER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_service\TAB_SERVICE_INDIVIDUAL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_service\TAB_SERVICE_PASSWORD.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_service\TAB_SERVICE_WEALTH.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_table_password\TABLE_PASSWORD_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_ABOUT_B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_ABOUT_B.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_ABOUT_M.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_ABOUT_M.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_ABOUT_T.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_ABOUT_T.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_ARROW_COLLPASE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_ARROW_EXPAND.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_LINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_LIST_B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_LIST_B.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_LIST_M.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_LIST_M.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_LIST_T.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_task\TASK_LIST_T.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_exchange\TEXT_AS_MEMBER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_exchange\TEXT_EXCHANGE_INGOT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\HAND_CUR.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\PlatformResource.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PlatformResource.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

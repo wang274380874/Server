@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Unicode|Win32">
+      <Configuration>Debug_Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Unicode_Ex|Win32">
+      <Configuration>Release_Unicode_Ex</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Unicode|Win32">
+      <Configuration>Release_Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>游戏客户端</ProjectName>
+    <ProjectGuid>{3A34A9AE-B81F-4884-9D1C-316B9B204899}</ProjectGuid>
+    <SccProjectName />
+    <SccAuxPath />
+    <SccLocalPath />
+    <SccProvider />
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode_Ex|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode_Ex|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+    <IncludePath>$(IncludePath);../../../链接库/DX9/Include</IncludePath>
+    <LibraryPath>$(LibraryPath);../../../链接库/Dx9/Lib/x86</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+    <IncludePath>$(IncludePath);../../../链接库/DX9/Include</IncludePath>
+    <LibraryPath>$(LibraryPath);../../../链接库/Dx9/Lib/x86</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+    <IncludePath>$(IncludePath);../../../链接库/DX9/Include</IncludePath>
+    <LibraryPath>$(LibraryPath);../../../链接库/Dx9/Lib/x86</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+    <IncludePath>$(IncludePath);../../../链接库/DX9/Include</IncludePath>
+    <LibraryPath>$(LibraryPath);../../../链接库/Dx9/Lib/x86</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode_Ex|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>../../../../运行/Debug/Ansi/HKFiveCardNew.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Command>mkdir ..\..\..\发布组件\客户端组件\Debug\Ansi
+copy /y ..\..\..\..\运行\Debug\Ansi\$(TargetFileName) ..\..\..\发布组件\客户端组件\Debug\Ansi\$(TargetFileName)
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>../../../../运行/Release/Ansi/HKFiveCardNew.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Command>mkdir ..\..\..\发布组件\客户端组件\Release\Ansi
+copy /y ..\..\..\..\运行\Release\Ansi\$(TargetFileName) ..\..\..\发布组件\客户端组件\Release\Ansi\$(TargetFileName)
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>../../../../运行/Debug/Unicode/HKFiveCardNew.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Command>mkdir ..\..\..\发布组件\客户端组件\Debug\Unicode
+copy /y ..\..\..\..\运行\Debug\Unicode\$(TargetFileName) ..\..\..\发布组件\客户端组件\Debug\Unicode\$(TargetFileName)
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>../../../../运行/Release/Unicode/HKFiveCardNew.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Command>mkdir ..\..\..\发布组件\客户端组件\Release\Unicode
+copy /y ..\..\..\..\运行\Release\Unicode\$(TargetFileName) ..\..\..\发布组件\客户端组件\Release\Unicode\$(TargetFileName)
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode_Ex|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;CHEAT_VERSION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>../../../../运行/Release/Unicode/HKFiveCardNewEx.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Command>mkdir ..\..\..\..\发布组件\客户端组件\Release\Unicode
+copy /y ..\..\..\..\运行\Release\Unicode\$(TargetFileName) ..\..\..\..\发布组件\客户端组件\Release\Unicode\$(TargetFileName)
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CardControl.cpp" />
+    <ClCompile Include="ChatEdit.cpp" />
+    <ClCompile Include="GameClient.cpp" />
+    <ClCompile Include="GameClientEngine.cpp" />
+    <ClCompile Include="GameClientView.cpp" />
+    <ClCompile Include="GameFrameWindow.cpp" />
+    <ClCompile Include="GameLogic.cpp" />
+    <ClCompile Include="HistoryRecord.cpp" />
+    <ClCompile Include="PlayOperate.cpp" />
+    <ClCompile Include="SHButton.cpp" />
+    <ClCompile Include="SkinButtonEx.cpp" />
+    <ClCompile Include="SkinHorizontalScrollbar.cpp" />
+    <ClCompile Include="SkinVerticleScrollbar.cpp" />
+    <ClCompile Include="Stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Unicode_Ex|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StringMessage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\消息定义\CMD_Game.h" />
+    <ClInclude Include="CardControl.h" />
+    <ClInclude Include="ChatEdit.h" />
+    <ClInclude Include="GameClient.h" />
+    <ClInclude Include="GameClientEngine.h" />
+    <ClInclude Include="GameClientView.h" />
+    <ClInclude Include="GameFrameWindow.h" />
+    <ClInclude Include="GameLogic.h" />
+    <ClInclude Include="HistoryRecord.h" />
+    <ClInclude Include="Memdc.h" />
+    <ClInclude Include="MoveDraw.h" />
+    <ClInclude Include="PlayOperate.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SHButton.h" />
+    <ClInclude Include="SkinButtonEx.h" />
+    <ClInclude Include="SkinHorizontalScrollbar.h" />
+    <ClInclude Include="SkinVerticleScrollbar.h" />
+    <ClInclude Include="Stdafx.h" />
+    <ClInclude Include="StringMessage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\ACTION_BACK.png" />
+    <Image Include="Res\ACTION_FONT.png" />
+    <Image Include="Res\BT_CLOSE_BUTTON.bmp" />
+    <Image Include="Res\BT_HIDE_CHAT.bmp" />
+    <Image Include="Res\BT_MIN_BUTTON.bmp" />
+    <Image Include="Res\BT_OPTION.bmp" />
+    <Image Include="Res\BT_SEND_MESSAGE.bmp" />
+    <Image Include="Res\BT_SHOW_CHAT.bmp" />
+    <Image Include="Res\BT_SOUND_CLOSE.bmp" />
+    <Image Include="Res\BT_SOUND_OPEN.bmp" />
+    <Image Include="Res\BT_START.bmp" />
+    <Image Include="Res\CARD.png" />
+    <Image Include="Res\CARD_MID.png" />
+    <Image Include="Res\CARD_TYPE.png" />
+    <Image Include="Res\CELL_NUMBER.png" />
+    <Image Include="Res\CELL_SCORE.png" />
+    <Image Include="Res\CHAT_BACK.png" />
+    <Image Include="Res\Control\ARROW_CONTROL.png" />
+    <Image Include="Res\Control\ARROW_CONTROL_BACK.png" />
+    <Image Include="Res\Control\ARROW_CONTROL_SELECT.png" />
+    <Image Include="Res\Control\BT_ADD.bmp" />
+    <Image Include="Res\Control\BT_ADD_SCORE.bmp" />
+    <Image Include="Res\Control\BT_CONTROL_CENTER.bmp" />
+    <Image Include="Res\Control\BT_CONTROL_FOLLOW.bmp" />
+    <Image Include="Res\Control\BT_CONTROL_GIVEUP.bmp" />
+    <Image Include="Res\Control\BT_CONTROL_NOADD.bmp" />
+    <Image Include="Res\Control\BT_CONTROL_SHOWHAND.bmp" />
+    <Image Include="Res\Control\BT_OK.bmp" />
+    <Image Include="Res\Control\BT_SCORE.bmp" />
+    <Image Include="Res\Control\BT_SUB.bmp" />
+    <Image Include="Res\Control\CONTROL_NUMBER.png" />
+    <Image Include="Res\Control\USER_CONTROL.png" />
+    <Image Include="Res\Control\USER_CONTROL_BACK.png" />
+    <Image Include="Res\FRAME_TOP.png" />
+    <Image Include="Res\GameClient.ico" />
+    <Image Include="Res\GAME_LOGO.bmp" />
+    <Image Include="Res\Game_over\GAME_OVER_SCORE_NUMBER.png" />
+    <Image Include="Res\Game_over\GAME_SCORE_L.png" />
+    <Image Include="Res\Game_over\GAME_SCORE_M.png" />
+    <Image Include="Res\Game_over\GAME_SCORE_R.png" />
+    <Image Include="Res\Game_over\LOSE_NUMBER.png" />
+    <Image Include="Res\Game_over\MY_GAME_SCORE_L.png" />
+    <Image Include="Res\Game_over\MY_GAME_SCORE_M.png" />
+    <Image Include="Res\Game_over\MY_GAME_SCORE_R.png" />
+    <Image Include="Res\Game_over\SUM_IMSUM.png" />
+    <Image Include="Res\Game_over\WIN_NUMBER.png" />
+    <Image Include="Res\JETTON_VIEW.png" />
+    <Image Include="Res\READY.png" />
+    <Image Include="Res\SCORE_NUMBER.png" />
+    <Image Include="Res\SCORE_TOTAL.png" />
+    <Image Include="Res\SCROLL_BAR.bmp" />
+    <Image Include="Res\SHOW_HAND.png" />
+    <Image Include="Res\Table.png" />
+    <Image Include="Res\TIME_BACK.png" />
+    <Image Include="Res\TIME_NUMBER.png" />
+    <Image Include="Res\USERPLAYING_INFO.png" />
+    <Image Include="Res\USERPLAYING_INFO_H.png" />
+    <Image Include="Res\USERPLAYING_INFO_V.png" />
+    <Image Include="Res\USER_0_BOY.png" />
+    <Image Include="Res\USER_0_BOY_EYE.png" />
+    <Image Include="Res\USER_0_GIRL.png" />
+    <Image Include="Res\USER_0_GIRL_EYE.png" />
+    <Image Include="Res\USER_1_BOY.png" />
+    <Image Include="Res\USER_1_BOY_EYE.png" />
+    <Image Include="Res\USER_1_GIRL.png" />
+    <Image Include="Res\USER_1_GIRL_EYE.png" />
+    <Image Include="Res\USER_2_BOY.png" />
+    <Image Include="Res\USER_2_BOY_EYE.png" />
+    <Image Include="Res\USER_2_GIRL.png" />
+    <Image Include="Res\USER_2_GIRL_EYE.png" />
+    <Image Include="Res\USER_3_BOY.png" />
+    <Image Include="Res\USER_3_BOY_EYE.png" />
+    <Image Include="Res\USER_3_GIRL.png" />
+    <Image Include="Res\USER_3_GIRL_EYE.png" />
+    <Image Include="Res\USER_4_BOY.png" />
+    <Image Include="Res\USER_4_BOY_EYE.png" />
+    <Image Include="Res\USER_4_GIRL.png" />
+    <Image Include="Res\USER_4_GIRL_EYE.png" />
+    <Image Include="Res\USER_INFO.png" />
+    <Image Include="Res\USER_INFO_H.png" />
+    <Image Include="Res\USER_INFO_V.png" />
+    <Image Include="Res\USER_SCORE.png" />
+    <Image Include="Res\VIEW_BACK.png" />
+    <Image Include="Res\VIEW_FILL.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Res\ADD_SCORE.wav" />
+    <Media Include="Res\CHOOSE_SCORE.wav" />
+    <Media Include="Res\FOLLOW.wav" />
+    <Media Include="Res\GAME_END.wav" />
+    <Media Include="Res\GAME_LOSE.wav" />
+    <Media Include="Res\GAME_START.wav" />
+    <Media Include="Res\GAME_WARN.wav" />
+    <Media Include="Res\GAME_WIN.wav" />
+    <Media Include="Res\GIVE_UP.wav" />
+    <Media Include="Res\NO_ADD.wav" />
+    <Media Include="Res\SEND_CARD.wav" />
+    <Media Include="Res\SHOW_HAND.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\CARD_CUR.cur" />
+    <None Include="res\GameClient.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="GameClient.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

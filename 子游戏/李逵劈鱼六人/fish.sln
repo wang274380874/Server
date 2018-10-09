@@ -1,0 +1,52 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fish", "fish\Fish.vcxproj", "{8770F292-C476-4B7A-9B98-2DA3E3D8DE59}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fish_server", "fish_server\fish_server.vcxproj", "{C7EDB21F-4577-4DD9-8475-E7A72AB51B23}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fish_android", "fish_android\fish_android.vcxproj", "{5A021AC8-C743-41E0-84AF-05E4A2AD4D9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Unicode|Win32 = Debug_Unicode|Win32
+		Debug|Win32 = Debug|Win32
+		longjiang|Win32 = longjiang|Win32
+		Release_Unicode|Win32 = Release_Unicode|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8770F292-C476-4B7A-9B98-2DA3E3D8DE59}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{8770F292-C476-4B7A-9B98-2DA3E3D8DE59}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{8770F292-C476-4B7A-9B98-2DA3E3D8DE59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8770F292-C476-4B7A-9B98-2DA3E3D8DE59}.Debug|Win32.Build.0 = Debug|Win32
+		{8770F292-C476-4B7A-9B98-2DA3E3D8DE59}.longjiang|Win32.ActiveCfg = longjiang|Win32
+		{8770F292-C476-4B7A-9B98-2DA3E3D8DE59}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{8770F292-C476-4B7A-9B98-2DA3E3D8DE59}.Release|Win32.ActiveCfg = Release|Win32
+		{8770F292-C476-4B7A-9B98-2DA3E3D8DE59}.Release|Win32.Build.0 = Release|Win32
+		{C7EDB21F-4577-4DD9-8475-E7A72AB51B23}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{C7EDB21F-4577-4DD9-8475-E7A72AB51B23}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{C7EDB21F-4577-4DD9-8475-E7A72AB51B23}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C7EDB21F-4577-4DD9-8475-E7A72AB51B23}.Debug|Win32.Build.0 = Debug|Win32
+		{C7EDB21F-4577-4DD9-8475-E7A72AB51B23}.longjiang|Win32.ActiveCfg = longjiang|Win32
+		{C7EDB21F-4577-4DD9-8475-E7A72AB51B23}.longjiang|Win32.Build.0 = longjiang|Win32
+		{C7EDB21F-4577-4DD9-8475-E7A72AB51B23}.Release_Unicode|Win32.ActiveCfg = Release|Win32
+		{C7EDB21F-4577-4DD9-8475-E7A72AB51B23}.Release_Unicode|Win32.Build.0 = Release|Win32
+		{C7EDB21F-4577-4DD9-8475-E7A72AB51B23}.Release|Win32.ActiveCfg = Release|Win32
+		{C7EDB21F-4577-4DD9-8475-E7A72AB51B23}.Release|Win32.Build.0 = Release|Win32
+		{5A021AC8-C743-41E0-84AF-05E4A2AD4D9B}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{5A021AC8-C743-41E0-84AF-05E4A2AD4D9B}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{5A021AC8-C743-41E0-84AF-05E4A2AD4D9B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A021AC8-C743-41E0-84AF-05E4A2AD4D9B}.Debug|Win32.Build.0 = Debug|Win32
+		{5A021AC8-C743-41E0-84AF-05E4A2AD4D9B}.longjiang|Win32.ActiveCfg = longjiang|Win32
+		{5A021AC8-C743-41E0-84AF-05E4A2AD4D9B}.longjiang|Win32.Build.0 = longjiang|Win32
+		{5A021AC8-C743-41E0-84AF-05E4A2AD4D9B}.Release_Unicode|Win32.ActiveCfg = Release|Win32
+		{5A021AC8-C743-41E0-84AF-05E4A2AD4D9B}.Release_Unicode|Win32.Build.0 = Release|Win32
+		{5A021AC8-C743-41E0-84AF-05E4A2AD4D9B}.Release|Win32.ActiveCfg = Release|Win32
+		{5A021AC8-C743-41E0-84AF-05E4A2AD4D9B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

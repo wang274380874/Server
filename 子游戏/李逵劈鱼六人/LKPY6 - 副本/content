@@ -1,0 +1,1833 @@
+; ------资源脚本------
+
+; ------海底场景
+Sprite scene_bg1
+{
+	texture = lkpy6\images\Scene\bg1.fish
+	rect = 0,0,1440,900
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite scene_bg2
+{
+	texture = lkpy6\images\Scene\bg2.fish
+	rect = 0,0,1440,900
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite scene_bg3
+{
+	texture = lkpy6\images\Scene\bg3.fish
+	rect = 0,0,1440,900
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation scene_wave
+{
+	texture = lkpy6\images\Scene\wave.fish
+	rect = 0,0,500,900
+	frames = 2
+	fps = 2.0
+	mode = FORWARD,LOOP
+	;hotspot = 250,450
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite scene_water
+{
+	texture = lkpy6\images\Scene\water1.fish
+	rect = 0,0,1100,700
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Texture scene_water1
+{
+	filename = lkpy6\images\Scene\water1.fish
+	resgroup = 1
+}
+
+Texture scene_water2
+{
+	filename = lkpy6\images\Scene\water2.fish
+	resgroup = 1
+}
+
+Texture scene_water3
+{
+	filename = lkpy6\images\Scene\water3.fish
+	resgroup = 1
+}
+
+Texture scene_water4
+{
+	filename = lkpy6\images\Scene\water4.fish
+	resgroup = 1
+}
+
+Texture scene_water5
+{
+	filename = lkpy6\images\Scene\water5.fish
+	resgroup = 1
+}
+
+Texture scene_water6
+{
+	filename = lkpy6\images\Scene\water6.fish
+	resgroup = 1
+}
+
+Texture scene_water7
+{
+	filename = lkpy6\images\Scene\water7.fish
+	resgroup = 1
+}
+
+Texture scene_water8
+{
+	filename = lkpy6\images\Scene\water8.fish
+	resgroup = 1
+}
+
+Texture scene_water9
+{
+	filename = lkpy6\images\Scene\water9.fish
+	resgroup = 1
+}
+
+Texture scene_water10
+{
+	filename = lkpy6\images\Scene\water10.fish
+	resgroup = 1
+}
+
+Texture scene_water11
+{
+	filename = lkpy6\images\Scene\water11.fish
+	resgroup = 1
+}
+
+Texture scene_water12
+{
+	filename = lkpy6\images\Scene\water12.fish
+	resgroup = 1
+}
+
+Texture scene_water13
+{
+	filename = lkpy6\images\Scene\water13.fish
+	resgroup = 1
+}
+
+Texture scene_water14
+{
+	filename = lkpy6\images\Scene\water14.fish
+	resgroup = 1
+}
+
+Texture scene_water15
+{
+	filename = lkpy6\images\Scene\water15.fish
+	resgroup = 1
+}
+
+Texture scene_water16
+{
+	filename = lkpy6\images\Scene\water16.fish
+	resgroup = 1
+}
+
+; ------炮------
+Sprite cannon_base
+{
+	texture = lkpy6\images\cannon\board.fish
+	rect = 0,0,209,194
+	hotspot = 104.5,47
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite cannon_plate
+{
+	texture = lkpy6\images\cannon\seat.fish
+	rect = 0,0,93,42
+	hotspot = 46.5,21
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite cannonNormal1
+{
+	texture = lkpy6\images\cannon\gun1.fish
+	rect = 0,0,52,82
+	hotspot = 126,141
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite cannonNormal2
+{
+	texture = lkpy6\images\cannon\gun1_1.fish
+	rect = 0,0,87,82
+	hotspot = 43.5,41
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite cannonNormal3
+{
+	texture = lkpy6\images\cannon\gun1_2.fish
+	rect = 0,0,86,76
+	hotspot = 43,38
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite cannonNormal4
+{
+	texture = lkpy6\images\cannon\gun1_3.fish
+	rect = 0,0,86,87
+	hotspot = 43,43.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite cannonIon1
+{
+	texture = lkpy6\images\cannon\gun2.fish
+	rect = 0,0,47,91
+	hotspot = 23.5,45.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite cannonIon2
+{
+	texture = lkpy6\images\cannon\gun2_1.fish
+	rect = 0,0,78,91
+	hotspot = 39,45.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite cannonIon3
+{
+	texture = lkpy6\images\cannon\gun2_2.fish
+	rect = 0,0,86,87
+	hotspot = 43,43.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite cannonIon4
+{
+	texture = lkpy6\images\cannon\gun2_3.fish
+	rect = 0,0,86,87
+	hotspot = 43,43.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite deco1
+{
+	texture = lkpy6\images\cannon\deco1.fish
+	rect = 0,0,52,52
+	hotspot = 26,26
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite deco2
+{
+	texture = lkpy6\images\cannon\deco2.fish
+	rect = 0,0,52,52
+	hotspot = 26,26
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite deco3
+{
+	texture = lkpy6\images\cannon\deco3.fish
+	rect = 0,0,52,52
+	hotspot = 26,26
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite deco4
+{
+	texture = lkpy6\images\cannon\deco4.fish
+	rect = 0,0,52,52
+	hotspot = 26,26
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite deco5
+{
+	texture = lkpy6\images\cannon\deco5.fish
+	rect = 0,0,52,52
+	hotspot = 26,26
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite deco6
+{
+	texture = lkpy6\images\cannon\deco6.fish
+	rect = 0,0,52,52
+	hotspot = 26,26
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite deco7
+{
+	texture = lkpy6\images\cannon\deco7.fish
+	rect = 0,0,52,52
+	hotspot = 26,26
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite deco8
+{
+	texture = lkpy6\images\cannon\deco8.fish
+	rect = 0,0,52,52
+	hotspot = 26,26
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite deco9
+{
+	texture = lkpy6\images\cannon\deco9.fish
+	rect = 0,0,52,52
+	hotspot = 26,26
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite deco10
+{
+	texture = lkpy6\images\cannon\deco10.fish
+	rect = 0,0,52,52
+	hotspot = 26,26
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+Animation cannon
+{
+	texture = lkpy6\images\UI\cannon2_norm.fish
+	rect = 0,0,120,200
+	frames = 6
+	fps = 17.0
+	mode = FORWARD,NOLOOP
+	hotspot = 60,144
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+Animation cannon1_normal : cannon
+{
+	texture = lkpy6\images\UI\cannon1_norm.fish
+}
+Animation cannon2_normal : cannon
+{
+	texture = lkpy6\images\UI\cannon2_norm.fish
+}
+
+Animation cannon3_normal : cannon
+{
+	texture = lkpy6\images\UI\cannon3_norm.fish
+}
+
+Animation cannon4_normal : cannon
+{
+	texture = lkpy6\images\UI\cannon4_norm.fish
+}
+Animation cannon1_ion : cannon
+{
+	texture = lkpy6\images\UI\cannon1_ion.fish
+}
+Animation cannon2_ion : cannon
+{
+	texture = lkpy6\images\UI\cannon2_ion.fish
+}
+
+Animation cannon3_ion : cannon
+{
+	texture = lkpy6\images\UI\cannon3_ion.fish
+}
+
+Animation cannon4_ion : cannon
+{
+	texture = lkpy6\images\UI\cannon4_ion.fish
+}
+
+Animation cannon1_double : cannon
+{
+	texture = lkpy6\images\UI\cannon1_double.fish
+}
+Animation cannon2_double : cannon
+{
+	texture = lkpy6\images\UI\cannon2_double.fish
+}
+
+Animation cannon3_double : cannon
+{
+	texture = lkpy6\images\UI\cannon3_double.fish
+}
+
+Animation cannon4_double : cannon
+{
+	texture = lkpy6\images\UI\cannon4_double.fish
+}
+
+; ------子弹------
+Animation bullet
+{
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation bullet1_norm : bullet
+{
+	rect = 0,0,22,35
+	frames = 2
+	fps = 2.0
+	mode = FORWARD,LOOP
+	hotspot = 11,-55
+}
+
+Animation bullet1_norm1 : bullet1_norm
+{
+	texture = lkpy6\images\bullet\bullet1_norm1.fish
+}
+
+Animation bullet1_norm2 : bullet1_norm
+{
+	texture = lkpy6\images\bullet\bullet1_norm2.fish
+}
+
+Animation bullet1_norm3 : bullet1_norm
+{
+	texture = lkpy6\images\bullet\bullet1_norm3.fish
+}
+
+Animation bullet1_norm4 : bullet1_norm
+{
+	texture = lkpy6\images\bullet\bullet1_norm4.fish
+}
+
+Animation bullet1_norm5 : bullet1_norm
+{
+	texture = lkpy6\images\bullet\bullet1_norm5.fish
+}
+
+Animation bullet1_norm6 : bullet1_norm
+{
+	texture = lkpy6\images\bullet\bullet1_norm6.fish
+}
+
+Animation bullet1_norm7 : bullet1_norm
+{
+	texture = lkpy6\images\bullet\bullet1_norm7.fish
+}
+
+Animation bullet1_norm8 : bullet1_norm
+{
+	texture = lkpy6\images\bullet\bullet1_norm8.fish
+}
+
+Animation bullet1_norm9 : bullet1_norm
+{
+	texture = lkpy6\images\bullet\bullet1_norm9.fish
+}
+
+Animation bullet1_norm10 : bullet1_norm
+{
+	texture = lkpy6\images\bullet\bullet1_norm10.fish
+}
+
+Animation bullet2_norm : bullet
+{
+	rect = 0,0,31,35
+	frames = 2
+	fps = 2.0
+	mode = FORWARD,LOOP
+	hotspot = 15.5,-55
+}
+
+Animation bullet2_norm1 : bullet2_norm
+{
+	texture = lkpy6\images\bullet\bullet2_norm1.fish
+}
+
+Animation bullet2_norm2 : bullet2_norm
+{
+	texture = lkpy6\images\bullet\bullet2_norm2.fish
+}
+
+Animation bullet2_norm3 : bullet2_norm
+{
+	texture = lkpy6\images\bullet\bullet2_norm3.fish
+}
+
+Animation bullet2_norm4 : bullet2_norm
+{
+	texture = lkpy6\images\bullet\bullet2_norm4.fish
+}
+
+Animation bullet2_norm5 : bullet2_norm
+{
+	texture = lkpy6\images\bullet\bullet2_norm5.fish
+}
+
+Animation bullet2_norm6 : bullet2_norm
+{
+	texture = lkpy6\images\bullet\bullet2_norm6.fish
+}
+
+Animation bullet2_norm7 : bullet2_norm
+{
+	texture = lkpy6\images\bullet\bullet2_norm7.fish
+}
+
+Animation bullet2_norm8 : bullet2_norm
+{
+	texture = lkpy6\images\bullet\bullet2_norm8.fish
+}
+
+Animation bullet2_norm9 : bullet2_norm
+{
+	texture = lkpy6\images\bullet\bullet2_norm9.fish
+}
+
+Animation bullet2_norm10 : bullet2_norm
+{
+	texture = lkpy6\images\bullet\bullet2_norm10.fish
+}
+
+Animation bullet3_norm : bullet
+{
+	rect = 0,0,31,28
+	frames = 2
+	fps = 2.0
+	mode = FORWARD,LOOP
+	hotspot = 15.5,-55
+}
+
+Animation bullet3_norm1 : bullet3_norm
+{
+	texture = lkpy6\images\bullet\bullet3_norm1.fish
+}
+
+Animation bullet3_norm2 : bullet3_norm
+{
+	texture = lkpy6\images\bullet\bullet3_norm2.fish
+}
+
+Animation bullet3_norm3 : bullet3_norm
+{
+	texture = lkpy6\images\bullet\bullet3_norm3.fish
+}
+
+Animation bullet3_norm4 : bullet3_norm
+{
+	texture = lkpy6\images\bullet\bullet3_norm4.fish
+}
+
+Animation bullet3_norm5 : bullet3_norm
+{
+	texture = lkpy6\images\bullet\bullet3_norm5.fish
+}
+
+Animation bullet3_norm6 : bullet3_norm
+{
+	texture = lkpy6\images\bullet\bullet3_norm6.fish
+}
+
+Animation bullet3_norm7 : bullet3_norm
+{
+	texture = lkpy6\images\bullet\bullet3_norm7.fish
+}
+
+Animation bullet3_norm8 : bullet3_norm
+{
+	texture = lkpy6\images\bullet\bullet3_norm8.fish
+}
+
+Animation bullet3_norm9 : bullet3_norm
+{
+	texture = lkpy6\images\bullet\bullet3_norm9.fish
+}
+
+Animation bullet3_norm10 : bullet3_norm
+{
+	texture = lkpy6\images\bullet\bullet3_norm10.fish
+}
+
+Animation bullet4_norm : bullet
+{
+	rect = 0,0,31,35
+	frames = 2
+	fps = 2.0
+	mode = FORWARD,LOOP
+	hotspot = 15.5,-55
+}
+
+Animation bullet4_norm1 : bullet4_norm
+{
+	texture = lkpy6\images\bullet\bullet4_norm1.fish
+}
+
+Animation bullet4_norm2 : bullet4_norm
+{
+	texture = lkpy6\images\bullet\bullet4_norm2.fish
+}
+
+Animation bullet4_norm3 : bullet4_norm
+{
+	texture = lkpy6\images\bullet\bullet4_norm3.fish
+}
+
+Animation bullet4_norm4 : bullet4_norm
+{
+	texture = lkpy6\images\bullet\bullet4_norm4.fish
+}
+
+Animation bullet4_norm5 : bullet4_norm
+{
+	texture = lkpy6\images\bullet\bullet4_norm5.fish
+}
+
+Animation bullet4_norm6 : bullet4_norm
+{
+	texture = lkpy6\images\bullet\bullet4_norm6.fish
+}
+
+Animation bullet4_norm7 : bullet4_norm
+{
+	texture = lkpy6\images\bullet\bullet4_norm7.fish
+}
+
+Animation bullet4_norm8 : bullet4_norm
+{
+	texture = lkpy6\images\bullet\bullet4_norm8.fish
+}
+
+Animation bullet4_norm9 : bullet4_norm
+{
+	texture = lkpy6\images\bullet\bullet4_norm9.fish
+}
+
+Animation bullet4_norm10 : bullet4_norm
+{
+	texture = lkpy6\images\bullet\bullet4_norm10.fish
+}
+
+Animation bullet1_ion : bullet
+{
+	texture = lkpy6\images\bullet\bullet1_ion.fish
+	rect = 0,0,43,57
+	frames = 2
+	fps = 2.0
+	mode = FORWARD,LOOP
+	hotspot = 21.5,-17
+}
+
+Animation bullet2_ion : bullet
+{
+	texture = lkpy6\images\bullet\bullet2_ion.fish
+	rect = 0,0,52,57
+	frames = 2
+	fps = 2.0
+	mode = FORWARD,LOOP
+	hotspot = 26,-17
+}
+
+Animation bullet3_ion : bullet
+{
+	texture = lkpy6\images\bullet\bullet3_ion.fish
+	rect = 0,0,52,43
+	frames = 2
+	fps = 2.0
+	mode = FORWARD,LOOP
+	hotspot = 26,-17
+}
+
+Animation bullet4_ion : bullet
+{
+	texture = lkpy6\images\bullet\bullet4_ion.fish
+	rect = 0,0,52,57
+	frames = 2
+	fps = 2.0
+	mode = FORWARD,LOOP
+	hotspot = 26,-17
+}
+
+; ------网------
+Animation net
+{
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation net2 : net
+{
+	texture = lkpy6\images\net\net2.fish
+	rect = 0,0,360,360
+	frames = 12
+	fps = 12.0
+	mode = FORWARD,NOLOOP
+	hotspot = 180,180
+}
+
+Animation net3 : net
+{
+	texture = lkpy6\images\net\net3.fish
+	rect = 0,0,360,360
+	frames = 10
+	fps = 10.0
+	mode = FORWARD,NOLOOP
+	hotspot = 180,180
+}
+
+Animation net4 : net
+{
+	texture = lkpy6\images\net\net4.fish
+	rect = 0,0,360,360
+	frames = 10
+	fps = 10.0
+	mode = FORWARD,NOLOOP
+	hotspot = 180,180
+}
+
+; ------鱼------
+Animation fish1
+{
+	texture = lkpy6\images\Fish\fish1.fish
+	rect = 0,0,70,24
+	frames = 12
+	fps = 12.0
+	mode = FORWARD,LOOP
+	hotspot = 35,12
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish1_die
+{
+	texture = lkpy6\images\Fish\fish1_d.fish
+	rect = 0,0,74,27
+	frames = 5
+	fps = 5.0
+	mode = FORWARD,NOLOOP
+	hotspot = 37,13.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish2
+{
+	texture = lkpy6\images\Fish\fish2.fish
+	rect = 0,0,54,24
+	frames = 16
+	fps = 16.0
+	mode = FORWARD,LOOP
+	hotspot = 27,12
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish2_die
+{
+	texture = lkpy6\images\Fish\fish2_d.fish
+	rect = 0,0,54,28
+	frames = 3
+	fps = 3.0
+	mode = FORWARD,NOLOOP
+	hotspot = 27,14
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish3
+{
+	texture = lkpy6\images\Fish\fish3.fish
+	rect = 0,0,78,48
+	frames = 24
+	fps = 24.0
+	mode = FORWARD,LOOP
+	hotspot = 39,24
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish3_die
+{
+	texture = lkpy6\images\Fish\fish3_d.fish
+	rect = 0,0,78,47
+	frames = 3
+	fps = 3.0
+	mode = FORWARD,NOLOOP
+	hotspot = 39,23.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish4
+{
+	texture = lkpy6\images\Fish\fish4.fish
+	rect = 0,0,100,64
+	frames = 24
+	fps = 24.0
+	mode = FORWARD,LOOP
+	hotspot = 50,32
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish4_die
+{
+	texture = lkpy6\images\Fish\fish4_d.fish
+	rect = 0,0,105,62
+	frames = 10
+	fps = 10.0
+	mode = FORWARD,NOLOOP
+	hotspot = 52.5,31
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish5
+{
+	texture = lkpy6\images\Fish\fish5.fish
+	rect = 0,0,124,45
+	frames = 24
+	fps = 24.0
+	mode = FORWARD,LOOP
+	hotspot = 62,22.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish5_die
+{
+	texture = lkpy6\images\Fish\fish5_d.fish
+	rect = 0,0,124,50
+	frames = 3
+	fps = 3.0
+	mode = FORWARD,NOLOOP
+	hotspot = 62,25
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish6
+{
+	texture = lkpy6\images\Fish\fish6.fish
+	rect = 0,0,105,72
+	frames = 25
+	fps = 25.0
+	mode = FORWARD,LOOP
+	hotspot = 52.5,36
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish6_die
+{
+	texture = lkpy6\images\Fish\fish6_d.fish
+	rect = 0,0,105,76
+	frames = 6
+	fps = 6.0
+	mode = FORWARD,NOLOOP
+	hotspot = 52.5,38
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish7
+{
+	texture = lkpy6\images\Fish\fish7.fish
+	rect = 0,0,120,58
+	frames = 60
+	fps = 20.0
+	mode = FORWARD,LOOP
+	hotspot = 60,29
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish7_die
+{
+	texture = lkpy6\images\Fish\fish7_d.fish
+	rect = 0,0,124,50
+	frames = 3
+	fps = 3.0
+	mode = FORWARD,NOLOOP
+	hotspot = 62,25
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish8
+{
+	texture = lkpy6\images\Fish\fish8.fish
+	rect = 0,0,132,74
+	frames = 20
+	fps = 20.0
+	mode = FORWARD,LOOP
+	hotspot = 66,37
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish8_die
+{
+	texture = lkpy6\images\Fish\fish8_d.fish
+	rect = 0,0,132,71
+	frames = 6
+	fps = 6.0
+	mode = FORWARD,NOLOOP
+	hotspot = 66,35.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish9
+{
+	texture = lkpy6\images\Fish\fish9.fish
+	rect = 0,0,160,70
+	frames = 24
+	fps = 24.0
+	mode = FORWARD,LOOP
+	hotspot = 80,35
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish9_die
+{
+	texture = lkpy6\images\Fish\fish9_d.fish
+	rect = 0,0,160,90
+	frames = 4
+	fps = 4.0
+	mode = FORWARD,NOLOOP
+	hotspot = 80,45
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish10
+{
+	texture = lkpy6\images\Fish\fish10.fish
+	rect = 0,0,135,145
+	frames = 16
+	fps = 16.0
+	mode = FORWARD,LOOP
+	hotspot = 67.5,72.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish10_die
+{
+	texture = lkpy6\images\Fish\fish10_d.fish
+	rect = 0,0,135,108
+	frames = 7
+	fps = 7.0
+	mode = FORWARD,NOLOOP
+	hotspot = 67.5,54
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish11
+{
+	texture = lkpy6\images\Fish\fish11.fish
+	rect = 0,0,190,84
+	frames = 24
+	fps = 24.0
+	mode = FORWARD,LOOP
+	hotspot = 80,42
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish11_die
+{
+	texture = lkpy6\images\Fish\fish11_d.fish
+	rect = 0,0,190,200
+	frames = 4
+	fps = 4.0
+	mode = FORWARD,NOLOOP
+	hotspot = 80,100
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish12
+{
+	texture = lkpy6\images\Fish\fish12.fish
+	rect = 0,0,158,164
+	frames = 12
+	fps = 12.0
+	mode = FORWARD,LOOP
+	hotspot = 79,82
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish12_die
+{
+	texture = lkpy6\images\Fish\fish12_d.fish
+	rect = 0,0,158,158
+	frames = 4
+	fps = 4.0
+	mode = FORWARD,NOLOOP
+	hotspot = 79,79
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish13
+{
+	texture = lkpy6\images\Fish\fish13.fish
+	rect = 0,0,220,88
+	frames = 24
+	fps = 24.0
+	mode = FORWARD,LOOP
+	hotspot = 110,44
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish13_die
+{
+	texture = lkpy6\images\Fish\fish13_d.fish
+	rect = 0,0,220,92
+	frames = 4
+	fps = 4.0
+	mode = FORWARD,NOLOOP
+	hotspot = 110,46
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish14
+{
+	texture = lkpy6\images\Fish\fish14.fish
+	rect = 0,0,285,97
+	frames = 20
+	fps = 20.0
+	mode = FORWARD,LOOP
+	hotspot = 142.5,48.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish14_die
+{
+	texture = lkpy6\images\Fish\fish14_d.fish
+	rect = 0,0,285,114
+	frames = 3
+	fps = 3.0
+	mode = FORWARD,NOLOOP
+	hotspot = 142.5,57
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish15
+{
+	texture = lkpy6\images\Fish\fish15.fish
+	rect = 0,0,210,260
+	frames = 24
+	fps = 24.0
+	mode = FORWARD,LOOP
+	hotspot = 105,130
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish15_die
+{
+	texture = lkpy6\images\Fish\fish15_d.fish
+	rect = 0,0,210,252
+	frames = 6
+	fps = 6.0
+	mode = FORWARD,NOLOOP
+	hotspot = 105,126
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish16
+{
+	texture = lkpy6\images\Fish\fish16.fish
+	rect = 0,0,300,140
+	frames = 24
+	fps = 24.0
+	mode = FORWARD,LOOP
+	hotspot = 150,70
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish16_die
+{
+	texture = lkpy6\images\Fish\fish16_d.fish
+	rect = 0,0,300,144
+	frames = 6
+	fps = 6.0
+	mode = FORWARD,NOLOOP
+	hotspot = 150,72
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish17
+{
+	texture = lkpy6\images\Fish\fish17.fish
+	rect = 0,0,300,140
+	frames = 24
+	fps = 24.0
+	mode = FORWARD,LOOP
+	hotspot = 150,70
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish17_die
+{
+	texture = lkpy6\images\Fish\fish17_d.fish
+	rect = 0,0,300,144
+	frames = 4
+	fps = 4.0
+	mode = FORWARD,NOLOOP
+	hotspot = 150,72
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish18
+{
+	texture = lkpy6\images\Fish\fish18.fish
+	rect = 0,0,512,304
+	frames = 9
+	fps = 9.0
+	mode = FORWARD,LOOP
+	hotspot = 256,152
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish18_die
+{
+	texture = lkpy6\images\Fish\fish18_d.fish
+        rect = 0,0,512,304
+	frames = 3
+	fps = 3.0
+	mode = FORWARD,NOLOOP
+	hotspot = 256,152
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish19
+{
+	texture = lkpy6\images\Fish\fish19.fish
+	rect = 0,0,480,177
+	frames = 9
+	fps = 9.0
+	mode = FORWARD,LOOP
+	hotspot = 240,88.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish19_die
+{
+	texture = lkpy6\images\Fish\fish19_d.fish
+	rect = 0,0,480,177
+	frames = 4
+	fps = 4.0
+	mode = FORWARD,NOLOOP
+	hotspot = 240,88.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish20
+{
+	texture = lkpy6\images\Fish\fish20.fish
+	rect = 0,0,323,323
+	frames = 20
+	fps = 20.0
+	mode = FORWARD,LOOP
+	hotspot = 161.5,161.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish20_die
+{
+	texture = lkpy6\images\Fish\fish20_d.fish
+	rect = 0,0,323,323
+	frames = 20
+	fps = 20.0
+	mode = FORWARD,NOLOOP
+	hotspot = 161.5,161.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish21
+{
+	texture = lkpy6\images\Fish\fish21.fish
+	rect = 0,0,300,262
+	frames = 15
+	fps = 15.0
+	mode = FORWARD,LOOP
+	hotspot = 150,131
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish21_die
+{
+	texture = lkpy6\images\Fish\fish21_d.fish
+	rect = 0,0,500,480
+	frames = 9
+	fps = 9.0
+	mode = FORWARD,NOLOOP
+	hotspot = 250,240
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish22
+{
+	texture = lkpy6\images\Fish\fish22.fish
+	rect = 0,0,180,100
+	frames = 15
+	fps = 15.0
+	mode = FORWARD,LOOP
+	hotspot = 90,50
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish22_die
+{
+	texture = lkpy6\images\Fish\fish22_d.fish
+	rect = 0,0,180,100
+	frames = 15
+	fps = 15.0
+	mode = FORWARD,NOLOOP
+	hotspot = 90,50
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish23
+{
+	texture = lkpy6\images\Fish\fish23.fish
+	rect = 0,0,156,160
+	frames = 8
+	fps = 8.0
+	mode = FORWARD,LOOP
+	hotspot = 78,80
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish23_die
+{
+	texture = lkpy6\images\Fish\fish23_d.fish
+	rect = 0,0,156,160
+	frames = 8
+	fps = 8.0
+	mode = FORWARD,NOLOOP
+	hotspot = 78,80
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish24
+{
+	texture = lkpy6\images\Fish\fish24.fish
+	rect = 0,0,200,200
+	frames = 1
+	fps = 0.1	;这个参数当作旋转的角度处理
+	mode = FORWARD,LOOP
+	hotspot = 100,100
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation fish24_die
+{
+	texture = lkpy6\images\Fish\fish24_d.fish
+	rect = 0,0,200,200
+	frames = 120	;这个参数当总旋转次数120*0.5
+	fps = 0.5	;这个参数当作旋转的角度处理
+	mode = FORWARD,NOLOOP
+	hotspot = 100,100
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation dish
+{
+	texture = lkpy6\images\Fish\dish.fish
+	rect = 0,0,120,120
+	frames = 1
+	fps = 0.1	;这个参数当作旋转的角度处理
+	mode = FORWARD,LOOP
+	hotspot = 60,60
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation dish_die
+{
+	texture = lkpy6\images\Fish\dish.fish
+	rect = 0,0,120,120
+	frames = 120	;这个参数当总旋转次数120*0.5
+	fps = 0.5	;这个参数当作旋转的角度处理
+	mode = FORWARD,NOLOOP
+	hotspot = 60,60
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation halo
+{
+	texture = lkpy6\images\Fish\halo.fish
+	rect = 0,0,120,120
+	frames = 1
+	fps = 0.1	;这个参数当作旋转的角度处理
+	mode = FORWARD,LOOP
+	hotspot = 60,60
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation halo_die
+{
+	texture = lkpy6\images\Fish\halo.fish
+	rect = 0,0,120,120
+	frames = 120	;这个参数当总旋转次数120*0.5
+	fps = 0.5	;这个参数当作旋转的角度处理
+	mode = FORWARD,LOOP
+	hotspot = 60,60
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite score_box
+{
+	texture = lkpy6\images\score_box.fish
+	rect = 0,0,148,45
+	hotspot = 74,22.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation credit_num
+{
+	texture = lkpy6\images\credit_num.fish
+	rect = 0,0,20,23
+	frames = 10
+	mode = FORWARD
+	hotspot = 10,11.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation cannon_num
+{
+	texture = lkpy6\images\cannon\cannon_num.fish
+	rect = 0,0,14,19
+	frames = 10
+	mode = FORWARD
+	hotspot = 7,9.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation coin1
+{
+	texture = lkpy6\images\coin1.fish
+	rect = 0,0,60,60
+	frames = 12
+	mode = FORWARD,LOOP
+	hotspot = 30,30
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation coin2
+{
+	texture = lkpy6\images\coin2.fish
+	rect = 0,0,90,90
+	frames = 12
+	mode = FORWARD,LOOP
+	hotspot = 45,45
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite jetton
+{
+	texture = lkpy6\images\jetton.fish
+	rect = 0,0,32,372
+	hotspot = 16,372
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation jetton_num
+{
+	texture = lkpy6\images\jetton_num.fish
+	rect = 0,0,12,17
+	frames = 10
+	mode = FORWARD
+	hotspot = 6,8.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite jetton_bgc1
+{
+	texture = lkpy6\images\jetton_bgc1.fish
+	rect = 0,0,75,18
+	hotspot = 37.5,9
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite jetton_bgc2
+{
+	texture = lkpy6\images\jetton_bgc2.fish
+	rect = 0,0,75,18
+	hotspot = 37.5,9
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation score_num
+{
+	texture = lkpy6\images\score_num.fish
+	rect = 0,0,33,38
+	frames = 10
+	mode = FORWARD
+	hotspot = 16.5,19
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation score_num_small
+{
+	texture = lkpy6\images\score_num_small.fish
+	rect = 0,0,33,38
+	frames = 10
+	mode = FORWARD
+	hotspot = 16.5,19
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation bingo_num
+{
+	texture = lkpy6\images\prize\bingo_num.fish
+	rect = 0,0,50,60
+	frames = 10
+	mode = FORWARD
+	hotspot = 25,30
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation bingo
+{
+	texture = lkpy6\images\prize\bingo.fish
+	rect = 0,0,256,256
+	frames = 10
+	mode = FORWARD,LOOP
+	hotspot = 128,128
+	fps = 10.0
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite message_bg
+{
+	texture = lkpy6\images\message_bg.fish
+	rect = 0,0,1440,63
+	hotspot = 720,31.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite cursor
+{
+	texture = lkpy6\images\cursor.fish
+	rect = 0,0,56,56
+	hotspot = 28,28
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite selfinfo
+{
+	texture = lkpy6\images\selfinfo.fish
+	rect = 0,0,1366,64
+	hotspot = 0,64
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation userscore_num
+{
+	texture = lkpy6\images\user_score.fish
+	rect = 0,0,13,19
+	frames = 10
+	mode = FORWARD
+	hotspot = 6.5,9.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite card_ion
+{
+	texture = lkpy6\images\cannon\card_ion.fish
+	rect = 0,0,105,107
+	hotspot = 52.5,53.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Animation lock_flag
+{
+	texture = lkpy6\images\lock_fish\lock_flag.fish
+	rect = 0,0,80,107
+	frames = 40
+	mode = FORWARD
+	hotspot = 40,53.5
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite lock_flag_1
+{
+	texture = lkpy6\images\lock_fish\lock_flag_1.fish
+	rect = 0,0,64,64
+	hotspot = 32,32
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite lock_flag_2
+{
+	texture = lkpy6\images\lock_fish\lock_flag_2.fish
+	rect = 0,0,64,64
+	hotspot = 32,32
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite lock_flag_3
+{
+	texture = lkpy6\images\lock_fish\lock_flag_3.fish
+	rect = 0,0,64,64
+	hotspot = 32,32
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite lock_flag_4
+{
+	texture = lkpy6\images\lock_fish\lock_flag_4.fish
+	rect = 0,0,64,64
+	hotspot = 32,32
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite lock_flag_5
+{
+	texture = lkpy6\images\lock_fish\lock_flag_5.fish
+	rect = 0,0,64,64
+	hotspot = 32,32
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite lock_flag_6
+{
+	texture = lkpy6\images\lock_fish\lock_flag_6.fish
+	rect = 0,0,64,64
+	hotspot = 32,32
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite lock_flag_7
+{
+	texture = lkpy6\images\lock_fish\lock_flag_7.fish
+	rect = 0,0,64,64
+	hotspot = 32,32
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite lock_flag_8
+{
+	texture = lkpy6\images\lock_fish\lock_flag_8.fish
+	rect = 0,0,64,64
+	hotspot = 32,32
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite lock_line
+{
+	texture = lkpy6\images\lock_fish\lock_line.fish
+	rect = 0,0,32,32
+	hotspot = 16,16
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+Sprite help_tip
+{
+	texture = lkpy6\images\help_tip.fish
+	rect = 0,0,444,300
+	hotspot = 222,150
+	blendmode = COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup = 1
+}
+
+; ------声音------
+Stream bgm_normal1
+{
+	filename = lkpy6\sounds\bgm\bgm1.fish
+	resgroup = 2
+}
+
+Stream bgm_normal2
+{
+	filename = lkpy6\sounds\bgm\bgm2.fish
+	resgroup = 2
+}
+
+Stream bgm_normal3
+{
+	filename = lkpy6\sounds\bgm\bgm3.fish
+	resgroup = 2
+}
+
+Stream bgm_normal4
+{
+	filename = lkpy6\sounds\bgm\bgm4.fish
+	resgroup = 2
+}
+
+Sound effect_cannon_switch
+{
+	filename = lkpy6\sounds\effect\cannonSwitch.fish
+	resgroup = 2
+}
+
+Sound effect_casting
+{
+	filename = lkpy6\sounds\effect\casting.fish
+	resgroup = 2
+}
+
+Sound effect_catch
+{
+	filename = lkpy6\sounds\effect\catch.fish
+	resgroup = 2
+}
+
+Sound effect_fire
+{
+	filename = lkpy6\sounds\effect\fire.fish
+	resgroup = 2
+}
+
+Sound effect_fish10_1
+{
+	filename = lkpy6\sounds\effect\fish10_1.fish
+	resgroup = 2
+}
+
+Sound effect_fish10_2
+{
+	filename = lkpy6\sounds\effect\fish10_2.fish
+	resgroup = 2
+}
+
+Sound effect_fish11_1
+{
+	filename = lkpy6\sounds\effect\fish11_1.fish
+	resgroup = 2
+}
+
+Sound effect_fish11_2
+{
+	filename = lkpy6\sounds\effect\fish11_2.fish
+	resgroup = 2
+}
+
+Sound effect_fish12_1
+{
+	filename = lkpy6\sounds\effect\fish12_1.fish
+	resgroup = 2
+}
+
+Sound effect_fish12_2
+{
+	filename = lkpy6\sounds\effect\fish12_2.fish
+	resgroup = 2
+}
+
+Sound effect_fish13_1
+{
+	filename = lkpy6\sounds\effect\fish13_1.fish
+	resgroup = 2
+}
+
+Sound effect_fish13_2
+{
+	filename = lkpy6\sounds\effect\fish13_2.fish
+	resgroup = 2
+}
+
+Sound effect_fish14_1
+{
+	filename = lkpy6\sounds\effect\fish14_1.fish
+	resgroup = 2
+}
+
+Sound effect_fish14_2
+{
+	filename = lkpy6\sounds\effect\fish14_2.fish
+	resgroup = 2
+}
+
+Sound effect_fish15_1
+{
+	filename = lkpy6\sounds\effect\fish15_1.fish
+	resgroup = 2
+}
+
+Sound effect_fish15_2
+{
+	filename = lkpy6\sounds\effect\fish15_2.fish
+	resgroup = 2
+}
+
+Sound effect_fish16_1
+{
+	filename = lkpy6\sounds\effect\fish16_1.fish
+	resgroup = 2
+}
+
+Sound effect_fish16_2
+{
+	filename = lkpy6\sounds\effect\fish16_2.fish
+	resgroup = 2
+}
+
+Sound effect_fish17_1
+{
+	filename = lkpy6\sounds\effect\fish17_1.fish
+	resgroup = 2
+}
+
+Sound effect_fish17_2
+{
+	filename = lkpy6\sounds\effect\fish17_2.fish
+	resgroup = 2
+}
+
+Sound effect_fish17_3
+{
+	filename = lkpy6\sounds\effect\fish17_3.fish
+	resgroup = 2
+}
+
+Sound effect_superarm
+{
+	filename = lkpy6\sounds\effect\superarm.fish
+	resgroup = 2
+}
+
+Stream rotaryturn
+{
+	filename = lkpy6\sounds\effect\rotaryturn.fish
+	resgroup = 2
+}
+
+Sound effect_bingo
+{
+	filename = lkpy6\sounds\effect\bingo.fish
+	resgroup = 2
+}
+
+Sound effect_wave
+{
+	filename = lkpy6\sounds\effect\wave.fish
+	resgroup = 2
+}
+Sound effect_1
+{
+	filename = lkpy6\sounds\fish\1.fish
+	resgroup = 2
+}
+Sound effect_2
+{
+	filename = lkpy6\sounds\fish\2.fish
+	resgroup = 2
+}
+Sound effect_3
+{
+	filename = lkpy6\sounds\fish\3.fish
+	resgroup = 2
+}
+Sound effect_4
+{
+	filename = lkpy6\sounds\fish\4.fish
+	resgroup = 2
+}
+Sound effect_5
+{
+	filename = lkpy6\sounds\fish\5.fish
+	resgroup = 2
+}
+Sound effect_6
+{
+	filename = lkpy6\sounds\fish\6.fish
+	resgroup = 2
+}
+Sound effect_7
+{
+	filename = lkpy6\sounds\fish\7.fish
+	resgroup = 2
+}
+Sound effect_8
+{
+	filename = lkpy6\sounds\fish\8.fish
+	resgroup = 2
+}

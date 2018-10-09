@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="FontCN">
+      <UniqueIdentifier>{9b4fc2ec-f1a2-4174-b57d-d61b01418e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="guichan_hge">
+      <UniqueIdentifier>{abab180b-1e4f-423a-bd8e-4f606dbff346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="guichan_hge\widgets">
+      <UniqueIdentifier>{135eaa7e-b6cd-4de9-911e-af692f78fb86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="magic">
+      <UniqueIdentifier>{df0f896d-0dca-4e03-8869-d8ea48f76572}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bingo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bounding_box.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cannon_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="client_kernel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="coin_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fish_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_scene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_user_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gui_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jetton_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lock_fish_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="math_aide.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDumper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="process_message.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_fish_trace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sound_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sound_setting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="user_filter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="water.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FontCN\TypeFont.cpp">
+      <Filter>FontCN</Filter>
+    </ClCompile>
+    <ClCompile Include="guichan_hge\hgegraphics.cpp">
+      <Filter>guichan_hge</Filter>
+    </ClCompile>
+    <ClCompile Include="guichan_hge\hgeimage.cpp">
+      <Filter>guichan_hge</Filter>
+    </ClCompile>
+    <ClCompile Include="guichan_hge\hgeimagefont.cpp">
+      <Filter>guichan_hge</Filter>
+    </ClCompile>
+    <ClCompile Include="guichan_hge\hgeimageloader.cpp">
+      <Filter>guichan_hge</Filter>
+    </ClCompile>
+    <ClCompile Include="guichan_hge\hgeinput.cpp">
+      <Filter>guichan_hge</Filter>
+    </ClCompile>
+    <ClCompile Include="guichan_hge\widgets\checkbox.cpp">
+      <Filter>guichan_hge\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="guichan_hge\widgets\imagebutton.cpp">
+      <Filter>guichan_hge\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="guichan_hge\widgets\slider.cpp">
+      <Filter>guichan_hge\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="guichan_hge\widgets\window.cpp">
+      <Filter>guichan_hge\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="magic\mp.cpp">
+      <Filter>magic</Filter>
+    </ClCompile>
+    <ClCompile Include="magic\mp_string.cpp">
+      <Filter>magic</Filter>
+    </ClCompile>
+    <ClCompile Include="magic\mp_wrap.cpp">
+      <Filter>magic</Filter>
+    </ClCompile>
+    <ClCompile Include="magic\platform_win.cpp">
+      <Filter>magic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bingo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bounding_box.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cannon_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="client_kernel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\command\CMD_Fish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="coin_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fish_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game_scene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game_user_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jetton_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lock_fish_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math_aide.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDumper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pos_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="process_message.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_fish_trace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sound_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sound_setting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="user_filter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="water.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FontCN\FontSprite.h">
+      <Filter>FontCN</Filter>
+    </ClInclude>
+    <ClInclude Include="FontCN\TypeFont.h">
+      <Filter>FontCN</Filter>
+    </ClInclude>
+    <ClInclude Include="guichan_hge\hgegraphics.hpp">
+      <Filter>guichan_hge</Filter>
+    </ClInclude>
+    <ClInclude Include="guichan_hge\hgeimage.hpp">
+      <Filter>guichan_hge</Filter>
+    </ClInclude>
+    <ClInclude Include="guichan_hge\hgeimagefont.hpp">
+      <Filter>guichan_hge</Filter>
+    </ClInclude>
+    <ClInclude Include="guichan_hge\hgeimageloader.hpp">
+      <Filter>guichan_hge</Filter>
+    </ClInclude>
+    <ClInclude Include="guichan_hge\hgeinput.hpp">
+      <Filter>guichan_hge</Filter>
+    </ClInclude>
+    <ClInclude Include="guichan_hge\widgets\checkbox.h">
+      <Filter>guichan_hge\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="guichan_hge\widgets\imagebutton.h">
+      <Filter>guichan_hge\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="guichan_hge\widgets\slider.h">
+      <Filter>guichan_hge\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="guichan_hge\widgets\window.h">
+      <Filter>guichan_hge\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="magic\magic.h">
+      <Filter>magic</Filter>
+    </ClInclude>
+    <ClInclude Include="magic\mp.h">
+      <Filter>magic</Filter>
+    </ClInclude>
+    <ClInclude Include="magic\mp_string.h">
+      <Filter>magic</Filter>
+    </ClInclude>
+    <ClInclude Include="magic\mp_wrap.h">
+      <Filter>magic</Filter>
+    </ClInclude>
+    <ClInclude Include="magic\platform_win.h">
+      <Filter>magic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="fish.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="game_logo.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fish.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

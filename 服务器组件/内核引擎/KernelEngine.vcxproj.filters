@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="全局">
+      <UniqueIdentifier>{895df032-ff2f-4d98-b400-87c64fd046bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="调度">
+      <UniqueIdentifier>{869c97d1-6700-4910-914c-a63be27d85d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="定时器">
+      <UniqueIdentifier>{f36fe395-29b6-49fd-8ca3-18b9ca8727b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="通讯引擎">
+      <UniqueIdentifier>{0dd837b2-7a79-4443-bcff-3f86a54a09cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="异步处理">
+      <UniqueIdentifier>{abadb464-c838-4b14-9394-dd2baac70fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="服务引擎">
+      <UniqueIdentifier>{acb8b1d0-8b98-4644-9362-030b7488b9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据库引擎">
+      <UniqueIdentifier>{2b540729-5ed3-41fe-8fbd-b3bdb14666bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="其他文件">
+      <UniqueIdentifier>{ba4a65ec-8c8e-49bc-a5a3-8c7ec7ed2936}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\KernelEngine.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KernelEngine.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\KernelEngine.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KernelEngine.cpp">
+      <Filter>全局</Filter>
+    </ClCompile>
+    <ClCompile Include="AttemperEngine.cpp">
+      <Filter>调度</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerEngine.cpp">
+      <Filter>定时器</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPNetworkEngine.cpp">
+      <Filter>通讯引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSocketService.cpp">
+      <Filter>通讯引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="AsynchronismEngine.cpp">
+      <Filter>异步处理</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceService.cpp">
+      <Filter>服务引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBaseAide.cpp">
+      <Filter>数据库引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBaseEngine.cpp">
+      <Filter>数据库引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>其他文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceServiceManager.cpp">
+      <Filter>其他文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KernelEngineHead.h">
+      <Filter>全局</Filter>
+    </ClInclude>
+    <ClInclude Include="AttemperEngine.h">
+      <Filter>调度</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerEngine.h">
+      <Filter>定时器</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPNetworkEngine.h">
+      <Filter>通讯引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSocketService.h">
+      <Filter>通讯引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="AsynchronismEngine.h">
+      <Filter>异步处理</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceService.h">
+      <Filter>服务引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseAide.h">
+      <Filter>数据库引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseEngine.h">
+      <Filter>数据库引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>其他文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>其他文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceServiceManager.h">
+      <Filter>其他文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,146 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\FishResource.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDLG DIALOGEX 0, 0, 313, 154
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "悟空闹海资源加密解密"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "加密资源",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,55,14,53,14
+    CONTROL         "解密资源",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,161,14,53,14
+    CONTROL         "源为文件夹",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,55,47,53,14
+    CONTROL         "源为文件",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,160,47,53,14
+    LTEXT           "源：",IDC_STATIC,36,84,11,13
+    EDITTEXT        IDC_EDIT1,55,80,173,16,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览...",IDC_BUTTON1,249,80,50,16
+    CONTROL         "转化完后删除源文件",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,115,85,14
+    CONTROL         "包含子文件夹",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,160,115,64,14
+    PUSHBUTTON      "开始",IDC_BUTTON2,248,115,50,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAINDLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 297
+        VERTGUIDE, 10
+        VERTGUIDE, 55
+        VERTGUIDE, 160
+        VERTGUIDE, 228
+        VERTGUIDE, 248
+        HORZGUIDE, 14
+        HORZGUIDE, 47
+        HORZGUIDE, 80
+        HORZGUIDE, 115
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "FishResource Module"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "FishResource"
+            VALUE "LegalCopyright", "Copyright 2013"
+            VALUE "OriginalFilename", "FishResource.exe"
+            VALUE "ProductName", "FishResource Module"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

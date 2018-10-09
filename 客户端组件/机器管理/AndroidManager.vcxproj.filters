@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;png</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountsControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\Custsite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLogon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgStatus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalUnits.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\IDispimp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionAndroid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionLogon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerListData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ServerControl.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountsControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidManagerHead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\Custsite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLogon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgStatus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalUnits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\IDispimp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionAndroid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionLogon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerListData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\AndroidManager.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_COMBOBOX.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_ENTER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_ITEM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_ITEM.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_QUIT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_REGISTER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_status\BT_STATUS_CANCEL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BT_STOP.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\Dlg_logon_back.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\DownLoad.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\IMAGE_SEARCH.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_match\LINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\LOAD_STATUS.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\Logon_titile.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\NULL.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_status\STATUS_IMAGE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_status\STATUS_LINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_status\STATUS_POINT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\WHISPER.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AndroidManager.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\AndroidManager.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\HAND_CUR.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

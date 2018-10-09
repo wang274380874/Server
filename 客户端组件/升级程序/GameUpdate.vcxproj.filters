@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;png</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Other\Custsite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUpdateCheck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DownLoad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUpdate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\IDispimp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Other\Custsite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUpdateCheck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DownLoad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DownLoadHead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUpdate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\IDispimp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\BT_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CLOSE_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_SELFUPDATE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_SELFUPDATE_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\DownLoad.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\PROGRESS_LINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\STATUS_IMAGE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Update.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\UPDATE_FRAME_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\WND_LOGO.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\WND_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameUpdate.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\HAND_CUR.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
